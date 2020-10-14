@@ -9,9 +9,6 @@ import numpy as np
 from sympy.core.evaluate import evaluate
 from sympy.matrices import Matrix,zeros,diag
 
-
-test = Matrix([[0.3,0.52,1],[0.5,1,1.9],[0.1,0.3,0.5]])
-
 def determinant(matrix):
     
     print("For matrix:\n")
