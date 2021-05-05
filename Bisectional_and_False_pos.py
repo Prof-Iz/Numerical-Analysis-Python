@@ -80,9 +80,6 @@ def bisectional_method(f,xl,xu,iterations,valTrue=False):
         resultsTable['epsilon_t'] = pd.Series(epsilon_t)
         
     return resultsTable
-            
-    
-
 
 def false_position(f,xl,xu,iterations,valTrue=False):
     '''
